@@ -10,11 +10,12 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
+h1 {font-family: 'Fredericka the Great', cursive;}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #485373;
 }
 
 .resume-main {
@@ -22,7 +23,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #010A26;
 }
 
 /* Styles for lists in the document */
@@ -49,3 +50,24 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.namecolor {
+	color: #DCE6F2;
+}
+
+.colorsubtitle {
+	color:#DCE6F2;
+	}
+
+.testfont {
+	color:#594646;
+	font-family: 'Fredericka the Great', cursive;
+	}
+
+.bluetitles {
+	color: #485373;
+	}
+
+.whitetext {
+	color:white;
+	}
