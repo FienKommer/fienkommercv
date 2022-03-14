@@ -16,7 +16,11 @@
 	  
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+	  
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	  
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
@@ -57,9 +61,9 @@
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content" >
-          <h1 class="fw-bolder namecolor">Fien Kommer</h1>
-          <h5 class="fst-italic tagline colorsubtitle">International Media and Entertainment Management student</h5>
+        <div class="name" >
+          <h1>Fien Kommer</h1>
+          <h5 class="colorsubtitle">International Media and Entertainment Management student</h5>
         </div>
       </header>
 
@@ -78,7 +82,7 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section subtitles">
             <h2>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
@@ -128,7 +132,7 @@
 
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section subtitles">
             <h2>Education</h2>
             <ul class="biography-list list-unstyled">
 
@@ -177,7 +181,7 @@
         <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
 
           <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section subtitles">
             <h2 class="whitetext">Contact</h2>
             <!--
               A list of all your contact details.
@@ -215,40 +219,40 @@
 
           <!-- End of contact details, moving on to languages -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section subtitles">
             <h2>Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50 testfont">Dutch</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 testfont">Native</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">French</h5>
+                <h5 class="language-name w-50 testfont">French</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 testfont">Full proficiency</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
+                <h5 class="language-name w-50 testfont">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 testfont">Advanced</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
+                <h5 class="language-name w-50 testfont">Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 testfont">Beginner</h6>
                 </div>
               </li>
             </ul>
@@ -256,22 +260,22 @@
 
           <!-- End of contact details, moving on to other skills -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section subtitles">
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player / Dynamic / Creative / Responsible / Flexibel</li>
-              <li class="skill-item">Microsoft Office Power and Adobe Creative Cloud User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item testfont">Team player / Dynamic / Creative / Responsible / Flexibel</li>
+              <li class="skill-item testfont">Microsoft Office Power and Adobe Creative Cloud User</li>
+              <li class="skill-item testfont">Driving Licence</li>
             </ul>
           </section>
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section subtitles">
             <h2>Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Interior Design, Fashion, Music, Cooking, Vintage, Art</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item testfont">Interior Design, Fashion, Music, Cooking, Vintage, Art</li>
+              <li class="skill-item testfont">Netflix Binge-Watcher</li>
             </ul>
           </section>
 

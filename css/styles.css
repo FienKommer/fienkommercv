@@ -10,7 +10,11 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-h1 {font-family: 'Fredericka the Great', cursive;}
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+	font-size: 80px;
+}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
@@ -23,7 +27,7 @@ h1 {font-family: 'Fredericka the Great', cursive;}
 }
 
 .resume-aside {
-	background-color: #010A26;
+	background-color: #B5C8C9;
 }
 
 /* Styles for lists in the document */
@@ -37,7 +41,7 @@ h1 {font-family: 'Fredericka the Great', cursive;}
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #CFC3E0;
 }
 
 .biography-details li, .skill-list li {
@@ -51,23 +55,36 @@ h1 {font-family: 'Fredericka the Great', cursive;}
 	flex-basis: 1.4em;
 }
 
-.namecolor {
+.name {
+	font-family: 'Bebas Neue', cursive;
 	color: #DCE6F2;
+	
 }
 
 .colorsubtitle {
+	font-family: 'Amatic SC', cursive;
 	color:#DCE6F2;
 	}
 
 .testfont {
 	color:#594646;
-	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Amatic SC', cursive;
 	}
 
 .bluetitles {
 	color: #485373;
+	font-family: 'Bebas Neue', cursive;
 	}
 
 .whitetext {
 	color:white;
 	}
+
+.subtitles {
+	font-family: 'Bebas Neue', cursive;
+	color:#485373;
+	}
+
+	
+
+
